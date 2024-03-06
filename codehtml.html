@@ -1,0 +1,29 @@
+<body>
+  <!-- Conteneur du logo -->
+  <div class="logo-container">
+    <!-- Logo -->
+    <img src="https://i.imgur.com/KO7atcz.png" alt="Logo" class="logo">
+  </div>
+  
+  <!-- Modal -->
+  <button class="open" onclick="toggleModal()">Open Modal</button>
+  <div id="myModal" class="modal">
+    <div class="form">
+      <form id="myForm" onsubmit="submitForm(event)">
+        <label for="name" required>Full Name</label>
+        <input id="name" type="text">
+        <label for="email" required>Email Address</label>
+        <input id="email" type="email">
+        <label for="phone" required>Phone Number</label>
+        <input id="phone" type="tel">
+        <label for="country">Country of Residence</label>
+        <input id="country" type="text">
+        <button type="submit">Submit your Application</button>
+      </form>
+    </div>
+    <div class="invite">
+      <h3>70% Scholarship opportunity in Cyprus</h3>
+      <div class="close" title="close"></div>
+    </div>
+  </div>
+</body>
